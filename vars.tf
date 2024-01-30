@@ -1,2 +1,9 @@
-variable "AWS_ACCESS_KEY"{}
-variable "AWS_SECRET_KEY"{} 
+variable "rg-name" {
+  type = string
+  description = "rg name"
+  default = "testterraformcloud-cog"
+}
+variable "location" {
+   default = "eastus"
+  
+}
